@@ -1,10 +1,9 @@
-import 'character.dart';
 import 'phyiscal_component.dart';
 import 'package:flame/animation.dart';
 import 'package:flame/sprite.dart';
 import 'package:flutter/painting.dart';
 
-class Tile extends Character {
+class Tile extends PhysicalComponent {
   Sprite sprite;
   Animation animation;
 

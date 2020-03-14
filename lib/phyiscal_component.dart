@@ -37,9 +37,12 @@ abstract class PhysicalComponent extends PositionComponent {
   bool static = false;
   final Set<Layer> layers = new Set();
   Level level;
+  int health;
 
   /// How much gravity applies to this
   double gravityRate = 1;
+
+  PhysicalComponent({this.health = 10});
 
   // Used to store collision during detection
   final List<PhysicalComponent> _tmpHits = [];
