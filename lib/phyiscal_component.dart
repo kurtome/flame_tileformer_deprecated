@@ -1,5 +1,5 @@
 import 'level.dart';
-import 'package:flame/components/component.dart';
+import 'package:flame_grab_bag/base_composed_component.dart';
 import 'package:flame/position.dart';
 import 'dart:math' as math;
 
@@ -30,7 +30,7 @@ enum Layer {
   Item
 }
 
-abstract class PhysicalComponent extends PositionComponent {
+abstract class PhysicalComponent extends BaseComposedComponent {
   /// Position object to store the x/y components
   final Position velocity = Position.empty();
   final CollisionInfo collisionInfo = CollisionInfo();

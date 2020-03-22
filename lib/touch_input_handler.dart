@@ -29,9 +29,6 @@ class TouchInputHandler extends BaseComposedComponent {
       _currentPointer = null;
     }
   }
-
-  @override
-  bool isHud() => true;
 }
 
 mixin TouchInputEventHandler on Component {

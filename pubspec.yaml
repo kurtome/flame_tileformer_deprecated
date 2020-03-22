@@ -14,7 +14,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flame: ^0.18.1
+  # flame: ^0.18.1
+  flame:
+    path: /Users/kmelby/github/kurtome/flame
   flame_grab_bag:
     path: /Users/kmelby/github/kurtome/flame_grab_bag
 
